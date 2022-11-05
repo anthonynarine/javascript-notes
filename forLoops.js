@@ -1,11 +1,11 @@
 //for loops
 //SYNTAX
 
-//let run a loop ten total time
+// run a loop ten total times
 // 50 initial value
 // 60 when to run the loop
 // +1 how to change value each time
-for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {   //counts up
     console.log("meme", i);
 }
 //let i = 1  is the initial value (start at 1)
@@ -16,10 +16,16 @@ for (let i = 1; i <= 10; i += 3) {  // increment by 3
 }
 
 for (let i = 1; i <= 20; i++) {
-    console.log(`${i}x${i} = ${num * num}`, i);
+    console.log(`${i}x${i} = ${i * i}`, i);
 }
 
-for (let i = 200; i >= 0; i -= 25){  //backwards count
+for (let i = 200; i >= 0; i -= 25){  //counts down
     console.log(i);
 }
 console.log("AFTER THE LOOP")
+
+
+
+
+
+
