@@ -2,7 +2,7 @@
 //where you don't know exactly how many times it
 //needs to run. ex while (stillAlive), (!gameOver), (liveLeft > 0)
 
-const target = Math.floor(Math.random() * 10);
+const target = Math.floor(Math.random() * 10); //Js random # generator
 let guess = Math.floor(Math.random() * 10);
 
 while(guess !== target) {
@@ -20,7 +20,8 @@ console.log(`CONGRATS YOU WIN!`);
 // guess = target ( Math.floor(Math.random() * 10);)
 
 
-//using BREAK (SYNTAX) to REFACTOR CODE ABOVE
+//using BREAK (SYNTAX) 
+
 // const target = Math.floor(Math.random() * 10);
 // let guess = Math.floor(Math.random() * 10);
 while (true) {
@@ -30,3 +31,7 @@ while (true) {
 }
 console.log (`Target: ${target} Guess: ${guess}`);
 console.log(`CONGRATS YOU WIN!`);
+
+
+
+
