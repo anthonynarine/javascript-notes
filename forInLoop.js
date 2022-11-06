@@ -1,7 +1,6 @@
 //For in loop iterate over objects. 
 // FOR IN LOOP SYNTAX AND EXAMPLE
 
-
 const topScorers = {
     "Kareem"   : 38387,
     "LeBron"   : 37254,
@@ -24,3 +23,7 @@ for (let player in topScorers){
 }
 
 console.log(`Top 5 Scorers of All Time Total - points ${total}`);
+
+
+
+
