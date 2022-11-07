@@ -20,3 +20,4 @@ const total2 = function (x, y ){
 
 
 
+  
