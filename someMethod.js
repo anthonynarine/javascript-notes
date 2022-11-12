@@ -1,4 +1,5 @@
 /// Some method \\\
+//ssome is a boolean method like every it will returns ture or false.
 
 // Similar to every, but returns true if ANY of the array 
 // elements pass the test function

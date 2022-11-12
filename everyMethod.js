@@ -1,4 +1,5 @@
 /// Every Method \\\
+//every is a boolean method will returns true of false
 
 // tests whether ALL the elements in an array 
 // pass the provided function. It returns a 
