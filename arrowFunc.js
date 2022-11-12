@@ -63,3 +63,9 @@ const parityList = grades.map(function (grade){
     else return "You Lack Discipline";
  //no else needed just return odd
 })
+
+
+
+
+
+
