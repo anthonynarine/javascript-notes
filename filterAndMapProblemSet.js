@@ -151,3 +151,18 @@ const cuisineType = dishes.filter(type => type.cuisine)
 const cuisineName = dishes.map((el) => {
     return `${el.cuisine} ${el.name}`
   })
+
+
+  //8. Create a function that will append the cuisine type to the start of the dish's name. Then, return only the Vegetarian dish objects. So this function should return objects 11-13 with their names changed to "Vegetarian Lasagna", "Vegetarian Falafel", "Vegetarian Chili"
+//Map, Filter
+
+
+// <<<<<<<<<<<<<<<<< BONUS <<<<<<<<<<<<<<<<<
+//9. Create a function that will return dishes whose ingredients array INCLUDES "chickpea".
+//Hint: You do not want to check the array's indexes to find out what the array INCLUDES.
+//Filter
+
+//10. Create a function that will return the total serving count of all dishes.
+//Must use Reduce, not a loop.
+
+//11. Create a function that will return an array of any objects that do not share a cuisine type with any other objects.
